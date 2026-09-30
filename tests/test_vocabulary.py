@@ -48,3 +48,40 @@ def test_portuguese_label_match_also_activates_the_words():
     features = keyword_features([], "Dor torácica")
 
     assert features["keyword_chest"] == features["keyword_pain"] == features["keyword_chest-pain"] == 1
+
+
+def test_only_complete_complaints_are_selectable():
+    selectable = {keyword.code for keyword in KEYWORDS if keyword.selectable}
+
+    assert {"chest-pain", "toe-pain", "fever", "headache"} <= selectable
+    assert not {"toe", "foot", "pain", "chest", "lower", "altered"} & selectable
+
+
+def test_selectable_labels_are_unique_so_the_user_never_sees_the_same_option_twice():
+    labels = [keyword.label for keyword in KEYWORDS if keyword.selectable]
+
+    assert len(labels) == len(set(labels))
+
+
+def test_selecting_a_complete_complaint_activates_its_internal_fragments():
+    features = keyword_features(["toe-pain"], None)
+
+    assert features["keyword_toe"] == features["keyword_pain"] == features["keyword_toe-pain"] == 1
+
+
+def test_a_longer_portuguese_label_hides_the_shorter_labels_inside_it():
+    assert detect_codes("Dor no dedo do pé") == {"toe-pain"}
+    assert detect_codes("Dor no dedo") == {"finger-pain"}
+
+
+def test_the_label_text_sent_with_the_code_adds_nothing_else():
+    features = keyword_features(["toe-pain"], "Dor no dedo do pé")
+    active = {code for code, value in features.items() if value}
+
+    assert active == {"keyword_toe-pain", "keyword_toe", "keyword_pain"}
+
+
+def test_a_typed_note_still_adds_what_it_mentions():
+    features = keyword_features(["chest-pain"], "Dor torácica — irradia para o braço")
+
+    assert features["keyword_arm"] == 1

@@ -15,7 +15,9 @@ def create_app(classifier: TriageClassifier) -> FastAPI:
     @app.get("/sintomas", response_model=list[KeywordResponse])
     def list_keywords() -> list[KeywordResponse]:
         return [
-            KeywordResponse(code=keyword.code, term=keyword.term, label=keyword.label)
+            KeywordResponse(
+                code=keyword.code, term=keyword.term, label=keyword.label, selectable=keyword.selectable
+            )
             for keyword in KEYWORDS
         ]
 

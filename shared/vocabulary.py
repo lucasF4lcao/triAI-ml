@@ -19,6 +19,7 @@ class Keyword:
     code: str
     term: str
     label: str
+    selectable: bool
 
 
 def _load_keywords() -> list[Keyword]:
@@ -71,13 +72,26 @@ def keyword_matrix(texts: Iterable[str]) -> csr_matrix:
     return _VECTORIZER.transform(texts)
 
 
+def _portuguese_codes(normalized: str) -> set[str]:
+    spans = [
+        (match.start(), match.end(), code)
+        for code, pattern in _PORTUGUESE_PATTERNS
+        for match in pattern.finditer(normalized)
+    ]
+
+    def inside_a_longer_match(span) -> bool:
+        start, end, _ = span
+        return any(o_start <= start and end <= o_end and o_end - o_start > end - start for o_start, o_end, _ in spans)
+
+    return {code for start, end, code in spans if not inside_a_longer_match((start, end, code))}
+
+
 def detect_codes(text: str | None) -> set[str]:
     if not text:
         return set()
 
     found = {KEYWORD_CODES[index] for index in keyword_matrix([text]).indices}
-    normalized = _normalize(text)
-    found.update(code for code, pattern in _PORTUGUESE_PATTERNS if pattern.search(normalized))
+    found.update(_portuguese_codes(_normalize(text)))
     return found
 
 

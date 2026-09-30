@@ -2,1436 +2,1723 @@
  {
   "code": "pain",
   "term": "pain",
-  "label": "Dor"
+  "label": "Dor",
+  "selectable": false
  },
  {
   "code": "abd",
   "term": "abd",
-  "label": "Abdome"
+  "label": "Abdome",
+  "selectable": false
  },
  {
   "code": "abd-pain",
   "term": "abd pain",
-  "label": "Dor abdominal"
+  "label": "Dor abdominal",
+  "selectable": true
  },
  {
   "code": "chest",
   "term": "chest",
-  "label": "Tórax"
+  "label": "Tórax",
+  "selectable": false
  },
  {
   "code": "chest-pain",
   "term": "chest pain",
-  "label": "Dor torácica"
+  "label": "Dor torácica",
+  "selectable": true
  },
  {
   "code": "s-p",
   "term": "s/p",
-  "label": "Status pós (s/p)"
+  "label": "Status pós (s/p)",
+  "selectable": false
  },
  {
   "code": "transfer",
   "term": "transfer",
-  "label": "Transferência de outro serviço"
+  "label": "Transferência de outro serviço",
+  "selectable": true
  },
  {
   "code": "fall",
   "term": "fall",
-  "label": "Queda"
+  "label": "Queda",
+  "selectable": true
  },
  {
   "code": "s-p-fall",
   "term": "s/p fall",
-  "label": "Queda (s/p fall)"
+  "label": "Queda (s/p fall)",
+  "selectable": false
  },
  {
   "code": "dyspnea",
   "term": "dyspnea",
-  "label": "Dispneia (falta de ar)"
+  "label": "Dispneia (falta de ar)",
+  "selectable": true
  },
  {
   "code": "back",
   "term": "back",
-  "label": "Costas"
+  "label": "Costas",
+  "selectable": false
  },
  {
   "code": "back-pain",
   "term": "back pain",
-  "label": "Dor nas costas"
+  "label": "Dor nas costas",
+  "selectable": true
  },
  {
   "code": "abdominal",
   "term": "abdominal",
-  "label": "Abdominal"
+  "label": "Abdominal",
+  "selectable": false
  },
  {
   "code": "headache",
   "term": "headache",
-  "label": "Cefaleia"
+  "label": "Cefaleia",
+  "selectable": true
  },
  {
   "code": "fever",
   "term": "fever",
-  "label": "Febre"
+  "label": "Febre",
+  "selectable": true
  },
  {
   "code": "abdominal-pain",
   "term": "abdominal pain",
-  "label": "Dor abdominal"
+  "label": "Dor abdominal",
+  "selectable": false
  },
  {
   "code": "eval",
   "term": "eval",
-  "label": "Avaliação"
+  "label": "Avaliação",
+  "selectable": false
  },
  {
   "code": "injury",
   "term": "injury",
-  "label": "Lesão ou trauma"
+  "label": "Lesão ou trauma",
+  "selectable": true
  },
  {
   "code": "leg",
   "term": "leg",
-  "label": "Perna"
+  "label": "Perna",
+  "selectable": false
  },
  {
   "code": "weakness",
   "term": "weakness",
-  "label": "Fraqueza"
+  "label": "Fraqueza",
+  "selectable": true
  },
  {
   "code": "etoh",
   "term": "etoh",
-  "label": "Intoxicação alcoólica"
+  "label": "Intoxicação alcoólica",
+  "selectable": true
  },
  {
   "code": "dizziness",
   "term": "dizziness",
-  "label": "Tontura"
+  "label": "Tontura",
+  "selectable": true
  },
  {
   "code": "n-v",
   "term": "n/v",
-  "label": "Náusea e vômito"
+  "label": "Náusea e vômito",
+  "selectable": true
  },
  {
   "code": "abnormal",
   "term": "abnormal",
-  "label": "Alterado"
+  "label": "Alterado",
+  "selectable": false
  },
  {
   "code": "swelling",
   "term": "swelling",
-  "label": "Inchaço"
+  "label": "Inchaço",
+  "selectable": false
  },
  {
   "code": "wound",
   "term": "wound",
-  "label": "Ferimento"
+  "label": "Ferimento",
+  "selectable": true
  },
  {
   "code": "lower",
   "term": "lower",
-  "label": "Inferior"
+  "label": "Inferior",
+  "selectable": false
  },
  {
   "code": "si",
   "term": "si",
-  "label": "Ideação suicida"
+  "label": "Ideação suicida",
+  "selectable": true
  },
  {
   "code": "cough",
   "term": "cough",
-  "label": "Tosse"
+  "label": "Tosse",
+  "selectable": true
  },
  {
   "code": "wound-eval",
   "term": "wound eval",
-  "label": "Avaliação de ferimento"
+  "label": "Avaliação de ferimento",
+  "selectable": true
  },
  {
   "code": "flank",
   "term": "flank",
-  "label": "Flanco"
+  "label": "Flanco",
+  "selectable": false
  },
  {
   "code": "flank-pain",
   "term": "flank pain",
-  "label": "Dor no flanco"
+  "label": "Dor no flanco",
+  "selectable": true
  },
  {
   "code": "altered",
   "term": "altered",
-  "label": "Alteração"
+  "label": "Alteração",
+  "selectable": false
  },
  {
   "code": "leg-pain",
   "term": "leg pain",
-  "label": "Dor na perna"
+  "label": "Dor na perna",
+  "selectable": true
  },
  {
   "code": "mental",
   "term": "mental",
-  "label": "Mental"
+  "label": "Mental",
+  "selectable": false
  },
  {
   "code": "status",
   "term": "status",
-  "label": "Estado"
+  "label": "Estado",
+  "selectable": false
  },
  {
   "code": "foot",
   "term": "foot",
-  "label": "Pé"
+  "label": "Pé",
+  "selectable": false
  },
  {
   "code": "mental-status",
   "term": "mental status",
-  "label": "Estado mental"
+  "label": "Estado mental",
+  "selectable": false
  },
  {
   "code": "arm",
   "term": "arm",
-  "label": "Braço"
+  "label": "Braço",
+  "selectable": false
  },
  {
   "code": "knee",
   "term": "knee",
-  "label": "Joelho"
+  "label": "Joelho",
+  "selectable": false
  },
  {
   "code": "altered-mental",
   "term": "altered mental",
-  "label": "Alteração do estado mental"
+  "label": "Alteração do estado mental",
+  "selectable": true
  },
  {
   "code": "syncope",
   "term": "syncope",
-  "label": "Síncope"
+  "label": "Síncope",
+  "selectable": true
  },
  {
   "code": "mvc",
   "term": "mvc",
-  "label": "Acidente de veículo"
+  "label": "Acidente de veículo",
+  "selectable": true
  },
  {
   "code": "labs",
   "term": "labs",
-  "label": "Exames laboratoriais"
+  "label": "Exames laboratoriais",
+  "selectable": false
  },
  {
   "code": "lower-back",
   "term": "lower back",
-  "label": "Região lombar"
+  "label": "Região lombar",
+  "selectable": false
  },
  {
   "code": "nausea",
   "term": "nausea",
-  "label": "Náusea"
+  "label": "Náusea",
+  "selectable": true
  },
  {
   "code": "laceration",
   "term": "laceration",
-  "label": "Laceração"
+  "label": "Laceração",
+  "selectable": true
  },
  {
   "code": "abnormal-labs",
   "term": "abnormal labs",
-  "label": "Exames laboratoriais alterados"
+  "label": "Exames laboratoriais alterados",
+  "selectable": true
  },
  {
   "code": "throat",
   "term": "throat",
-  "label": "Garganta"
+  "label": "Garganta",
+  "selectable": false
  },
  {
   "code": "ili",
   "term": "ili",
-  "label": "Síndrome gripal"
+  "label": "Síndrome gripal",
+  "selectable": true
  },
  {
   "code": "neck",
   "term": "neck",
-  "label": "Pescoço"
+  "label": "Pescoço",
+  "selectable": false
  },
  {
   "code": "knee-pain",
   "term": "knee pain",
-  "label": "Dor no joelho"
+  "label": "Dor no joelho",
+  "selectable": true
  },
  {
   "code": "vomiting",
   "term": "vomiting",
-  "label": "Vômito"
+  "label": "Vômito",
+  "selectable": true
  },
  {
   "code": "shoulder",
   "term": "shoulder",
-  "label": "Ombro"
+  "label": "Ombro",
+  "selectable": false
  },
  {
   "code": "sore",
   "term": "sore",
-  "label": "Dolorido"
+  "label": "Dolorido",
+  "selectable": false
  },
  {
   "code": "hand",
   "term": "hand",
-  "label": "Mão"
+  "label": "Mão",
+  "selectable": false
  },
  {
   "code": "sore-throat",
   "term": "sore throat",
-  "label": "Dor de garganta"
+  "label": "Dor de garganta",
+  "selectable": true
  },
  {
   "code": "neck-pain",
   "term": "neck pain",
-  "label": "Dor no pescoço"
+  "label": "Dor no pescoço",
+  "selectable": true
  },
  {
   "code": "head",
   "term": "head",
-  "label": "Cabeça"
+  "label": "Cabeça",
+  "selectable": false
  },
  {
   "code": "palpitations",
   "term": "palpitations",
-  "label": "Palpitações"
+  "label": "Palpitações",
+  "selectable": true
  },
  {
   "code": "n-v-d",
   "term": "n/v/d",
-  "label": "Náusea, vômito e diarreia"
+  "label": "Náusea, vômito e diarreia",
+  "selectable": true
  },
  {
   "code": "ankle",
   "term": "ankle",
-  "label": "Tornozelo"
+  "label": "Tornozelo",
+  "selectable": false
  },
  {
   "code": "brbpr",
   "term": "brbpr",
-  "label": "Sangramento retal vivo"
+  "label": "Sangramento retal vivo",
+  "selectable": true
  },
  {
   "code": "hip",
   "term": "hip",
-  "label": "Quadril"
+  "label": "Quadril",
+  "selectable": false
  },
  {
   "code": "foot-pain",
   "term": "foot pain",
-  "label": "Dor no pé"
+  "label": "Dor no pé",
+  "selectable": true
  },
  {
   "code": "diarrhea",
   "term": "diarrhea",
-  "label": "Diarreia"
+  "label": "Diarreia",
+  "selectable": true
  },
  {
   "code": "seizure",
   "term": "seizure",
-  "label": "Convulsão"
+  "label": "Convulsão",
+  "selectable": true
  },
  {
   "code": "numbness",
   "term": "numbness",
-  "label": "Dormência"
+  "label": "Dormência",
+  "selectable": true
  },
  {
   "code": "facial",
   "term": "facial",
-  "label": "Facial"
+  "label": "Facial",
+  "selectable": false
  },
  {
   "code": "shoulder-pain",
   "term": "shoulder pain",
-  "label": "Dor no ombro"
+  "label": "Dor no ombro",
+  "selectable": true
  },
  {
   "code": "finger",
   "term": "finger",
-  "label": "Dedo da mão"
+  "label": "Dedo da mão",
+  "selectable": false
  },
  {
   "code": "eye",
   "term": "eye",
-  "label": "Olho"
+  "label": "Olho",
+  "selectable": false
  },
  {
   "code": "leg-swelling",
   "term": "leg swelling",
-  "label": "Inchaço na perna"
+  "label": "Inchaço na perna",
+  "selectable": true
  },
  {
   "code": "rash",
   "term": "rash",
-  "label": "Erupção cutânea"
+  "label": "Erupção cutânea",
+  "selectable": true
  },
  {
   "code": "bleeding",
   "term": "bleeding",
-  "label": "Sangramento"
+  "label": "Sangramento",
+  "selectable": true
  },
  {
   "code": "dysuria",
   "term": "dysuria",
-  "label": "Disúria"
+  "label": "Disúria",
+  "selectable": true
  },
  {
   "code": "vaginal",
   "term": "vaginal",
-  "label": "Vaginal"
+  "label": "Vaginal",
+  "selectable": false
  },
  {
   "code": "hip-pain",
   "term": "hip pain",
-  "label": "Dor no quadril"
+  "label": "Dor no quadril",
+  "selectable": true
  },
  {
   "code": "rlq",
   "term": "rlq",
-  "label": "Quadrante inferior direito"
+  "label": "Quadrante inferior direito",
+  "selectable": false
  },
  {
   "code": "arm-pain",
   "term": "arm pain",
-  "label": "Dor no braço"
+  "label": "Dor no braço",
+  "selectable": true
  },
  {
   "code": "head-injury",
   "term": "head injury",
-  "label": "Trauma de cabeça"
+  "label": "Trauma de cabeça",
+  "selectable": true
  },
  {
   "code": "anxiety",
   "term": "anxiety",
-  "label": "Ansiedade"
+  "label": "Ansiedade",
+  "selectable": true
  },
  {
   "code": "rlq-abdominal",
   "term": "rlq abdominal",
-  "label": "Abdome em quadrante inferior direito"
+  "label": "Abdome em quadrante inferior direito",
+  "selectable": false
  },
  {
   "code": "unable",
   "term": "unable",
-  "label": "Incapaz"
+  "label": "Incapaz",
+  "selectable": false
  },
  {
   "code": "urinary",
   "term": "urinary",
-  "label": "Urinário"
+  "label": "Urinário",
+  "selectable": false
  },
  {
   "code": "allergic",
   "term": "allergic",
-  "label": "Alérgico"
+  "label": "Alérgico",
+  "selectable": false
  },
  {
   "code": "ambulate",
   "term": "ambulate",
-  "label": "Deambular"
+  "label": "Deambular",
+  "selectable": false
  },
  {
   "code": "hematuria",
   "term": "hematuria",
-  "label": "Hematúria"
+  "label": "Hematúria",
+  "selectable": true
  },
  {
   "code": "reaction",
   "term": "reaction",
-  "label": "Reação"
+  "label": "Reação",
+  "selectable": false
  },
  {
   "code": "vaginal-bleeding",
   "term": "vaginal bleeding",
-  "label": "Sangramento vaginal"
+  "label": "Sangramento vaginal",
+  "selectable": true
  },
  {
   "code": "allergic-reaction",
   "term": "allergic reaction",
-  "label": "Reação alérgica"
+  "label": "Reação alérgica",
+  "selectable": true
  },
  {
   "code": "confusion",
   "term": "confusion",
-  "label": "Confusão mental"
+  "label": "Confusão mental",
+  "selectable": true
  },
  {
   "code": "hypertension",
   "term": "hypertension",
-  "label": "Hipertensão"
+  "label": "Hipertensão",
+  "selectable": true
  },
  {
   "code": "changes",
   "term": "changes",
-  "label": "Alterações"
+  "label": "Alterações",
+  "selectable": false
  },
  {
   "code": "hyperglycemia",
   "term": "hyperglycemia",
-  "label": "Hiperglicemia"
+  "label": "Hiperglicemia",
+  "selectable": true
  },
  {
   "code": "hypotension",
   "term": "hypotension",
-  "label": "Hipotensão"
+  "label": "Hipotensão",
+  "selectable": true
  },
  {
   "code": "epigastric",
   "term": "epigastric",
-  "label": "Epigástrico"
+  "label": "Epigástrico",
+  "selectable": false
  },
  {
   "code": "epigastric-pain",
   "term": "epigastric pain",
-  "label": "Dor epigástrica"
+  "label": "Dor epigástrica",
+  "selectable": true
  },
  {
   "code": "pregnant",
   "term": "pregnant",
-  "label": "Gestante"
+  "label": "Gestante",
+  "selectable": true
  },
  {
   "code": "assault",
   "term": "assault",
-  "label": "Agressão"
+  "label": "Agressão",
+  "selectable": true
  },
  {
   "code": "depression",
   "term": "depression",
-  "label": "Depressão"
+  "label": "Depressão",
+  "selectable": true
  },
  {
   "code": "ruq",
   "term": "ruq",
-  "label": "Quadrante superior direito"
+  "label": "Quadrante superior direito",
+  "selectable": false
  },
  {
   "code": "ankle-pain",
   "term": "ankle pain",
-  "label": "Dor no tornozelo"
+  "label": "Dor no tornozelo",
+  "selectable": true
  },
  {
   "code": "eye-pain",
   "term": "eye pain",
-  "label": "Dor no olho"
+  "label": "Dor no olho",
+  "selectable": true
  },
  {
   "code": "ear",
   "term": "ear",
-  "label": "Ouvido"
+  "label": "Ouvido",
+  "selectable": false
  },
  {
   "code": "wrist",
   "term": "wrist",
-  "label": "Punho"
+  "label": "Punho",
+  "selectable": false
  },
  {
   "code": "tachycardia",
   "term": "tachycardia",
-  "label": "Taquicardia"
+  "label": "Taquicardia",
+  "selectable": true
  },
  {
   "code": "ruq-abdominal",
   "term": "ruq abdominal",
-  "label": "Abdome em quadrante superior direito"
+  "label": "Abdome em quadrante superior direito",
+  "selectable": false
  },
  {
   "code": "lightheaded",
   "term": "lightheaded",
-  "label": "Cabeça leve"
+  "label": "Cabeça leve",
+  "selectable": true
  },
  {
   "code": "lower-abdominal",
   "term": "lower abdominal",
-  "label": "Dor abdominal baixa"
+  "label": "Dor abdominal baixa",
+  "selectable": true
  },
  {
   "code": "llq",
   "term": "llq",
-  "label": "Quadrante inferior esquerdo"
+  "label": "Quadrante inferior esquerdo",
+  "selectable": false
  },
  {
   "code": "exertion",
   "term": "exertion",
-  "label": "Esforço"
+  "label": "Esforço",
+  "selectable": false
  },
  {
   "code": "on-exertion",
   "term": "on exertion",
-  "label": "Aos esforços"
+  "label": "Aos esforços",
+  "selectable": false
  },
  {
   "code": "retention",
   "term": "retention",
-  "label": "Retenção"
+  "label": "Retenção",
+  "selectable": false
  },
  {
   "code": "ear-pain",
   "term": "ear pain",
-  "label": "Dor de ouvido"
+  "label": "Dor de ouvido",
+  "selectable": true
  },
  {
   "code": "psych",
   "term": "psych",
-  "label": "Psiquiátrico"
+  "label": "Psiquiátrico",
+  "selectable": false
  },
  {
   "code": "urinary-retention",
   "term": "urinary retention",
-  "label": "Retenção urinária"
+  "label": "Retenção urinária",
+  "selectable": true
  },
  {
   "code": "presyncope",
   "term": "presyncope",
-  "label": "Pré-síncope"
+  "label": "Pré-síncope",
+  "selectable": true
  },
  {
   "code": "visual",
   "term": "visual",
-  "label": "Visual"
+  "label": "Visual",
+  "selectable": false
  },
  {
   "code": "cp",
   "term": "cp",
-  "label": "Dor torácica (cp)"
+  "label": "Dor torácica (cp)",
+  "selectable": false
  },
  {
   "code": "llq-abdominal",
   "term": "llq abdominal",
-  "label": "Abdome em quadrante inferior esquerdo"
+  "label": "Abdome em quadrante inferior esquerdo",
+  "selectable": false
  },
  {
   "code": "ct",
   "term": "ct",
-  "label": "Tomografia"
+  "label": "Tomografia",
+  "selectable": false
  },
  {
   "code": "sob",
   "term": "sob",
-  "label": "Falta de ar (sob)"
+  "label": "Falta de ar (sob)",
+  "selectable": false
  },
  {
   "code": "substance",
   "term": "substance",
-  "label": "Substância"
+  "label": "Substância",
+  "selectable": false
  },
  {
   "code": "fracture",
   "term": "fracture",
-  "label": "Fratura"
+  "label": "Fratura",
+  "selectable": true
  },
  {
   "code": "visual-changes",
   "term": "visual changes",
-  "label": "Alterações visuais"
+  "label": "Alterações visuais",
+  "selectable": true
  },
  {
   "code": "abnormal-ct",
   "term": "abnormal ct",
-  "label": "Tomografia alterada"
+  "label": "Tomografia alterada",
+  "selectable": true
  },
  {
   "code": "abscess",
   "term": "abscess",
-  "label": "Abscesso"
+  "label": "Abscesso",
+  "selectable": true
  },
  {
   "code": "anemia",
   "term": "anemia",
-  "label": "Anemia"
+  "label": "Anemia",
+  "selectable": true
  },
  {
   "code": "ankle-injury",
   "term": "ankle injury",
-  "label": "Lesão no tornozelo"
+  "label": "Lesão no tornozelo",
+  "selectable": true
  },
  {
   "code": "constipation",
   "term": "constipation",
-  "label": "Constipação"
+  "label": "Constipação",
+  "selectable": true
  },
  {
   "code": "rectal",
   "term": "rectal",
-  "label": "Retal"
+  "label": "Retal",
+  "selectable": false
  },
  {
   "code": "distention",
   "term": "distention",
-  "label": "Distensão"
+  "label": "Distensão",
+  "selectable": false
  },
  {
   "code": "toe",
   "term": "toe",
-  "label": "Dedo do pé"
+  "label": "Dedo do pé",
+  "selectable": false
  },
  {
   "code": "lethargy",
   "term": "lethargy",
-  "label": "Letargia"
+  "label": "Letargia",
+  "selectable": true
  },
  {
   "code": "abdominal-distention",
   "term": "abdominal distention",
-  "label": "Distensão abdominal"
+  "label": "Distensão abdominal",
+  "selectable": true
  },
  {
   "code": "bite",
   "term": "bite",
-  "label": "Mordida"
+  "label": "Mordida",
+  "selectable": true
  },
  {
   "code": "rib",
   "term": "rib",
-  "label": "Costela"
+  "label": "Costela",
+  "selectable": false
  },
  {
   "code": "finger-laceration",
   "term": "finger laceration",
-  "label": "Laceração no dedo"
+  "label": "Laceração no dedo",
+  "selectable": true
  },
  {
   "code": "hypoxia",
   "term": "hypoxia",
-  "label": "Hipóxia"
+  "label": "Hipóxia",
+  "selectable": true
  },
  {
   "code": "asthma",
   "term": "asthma",
-  "label": "Asma"
+  "label": "Asma",
+  "selectable": true
  },
  {
   "code": "hand-injury",
   "term": "hand injury",
-  "label": "Lesão na mão"
+  "label": "Lesão na mão",
+  "selectable": true
  },
  {
   "code": "lac",
   "term": "lac",
-  "label": "Laceração (lac)"
+  "label": "Laceração (lac)",
+  "selectable": false
  },
  {
   "code": "exacerbation",
   "term": "exacerbation",
-  "label": "Exacerbação"
+  "label": "Exacerbação",
+  "selectable": false
  },
  {
   "code": "wrist-pain",
   "term": "wrist pain",
-  "label": "Dor no punho"
+  "label": "Dor no punho",
+  "selectable": true
  },
  {
   "code": "overdose",
   "term": "overdose",
-  "label": "Overdose"
+  "label": "Overdose",
+  "selectable": true
  },
  {
   "code": "asthma-exacerbation",
   "term": "asthma exacerbation",
-  "label": "Crise de asma"
+  "label": "Crise de asma",
+  "selectable": true
  },
  {
   "code": "rib-pain",
   "term": "rib pain",
-  "label": "Dor nas costelas"
+  "label": "Dor nas costelas",
+  "selectable": true
  },
  {
   "code": "epistaxis",
   "term": "epistaxis",
-  "label": "Sangramento nasal"
+  "label": "Sangramento nasal",
+  "selectable": true
  },
  {
   "code": "rectal-pain",
   "term": "rectal pain",
-  "label": "Dor retal"
+  "label": "Dor retal",
+  "selectable": true
  },
  {
   "code": "thumb",
   "term": "thumb",
-  "label": "Polegar"
+  "label": "Polegar",
+  "selectable": false
  },
  {
   "code": "fatigue",
   "term": "fatigue",
-  "label": "Fadiga"
+  "label": "Fadiga",
+  "selectable": true
  },
  {
   "code": "substance-use",
   "term": "substance use",
-  "label": "Uso de substâncias"
+  "label": "Uso de substâncias",
+  "selectable": true
  },
  {
   "code": "extremity",
   "term": "extremity",
-  "label": "Extremidade"
+  "label": "Extremidade",
+  "selectable": false
  },
  {
   "code": "redness",
   "term": "redness",
-  "label": "Vermelhidão"
+  "label": "Vermelhidão",
+  "selectable": false
  },
  {
   "code": "upper",
   "term": "upper",
-  "label": "Superior"
+  "label": "Superior",
+  "selectable": false
  },
  {
   "code": "hand-pain",
   "term": "hand pain",
-  "label": "Dor na mão"
+  "label": "Dor na mão",
+  "selectable": true
  },
  {
   "code": "dental",
   "term": "dental",
-  "label": "Dentário"
+  "label": "Dentário",
+  "selectable": false
  },
  {
   "code": "toe-pain",
   "term": "toe pain",
-  "label": "Dor no dedo do pé"
+  "label": "Dor no dedo do pé",
+  "selectable": true
  },
  {
   "code": "cardiac",
   "term": "cardiac",
-  "label": "Cardíaco"
+  "label": "Cardíaco",
+  "selectable": false
  },
  {
   "code": "dental-pain",
   "term": "dental pain",
-  "label": "Dor de dente"
+  "label": "Dor de dente",
+  "selectable": true
  },
  {
   "code": "facial-swelling",
   "term": "facial swelling",
-  "label": "Inchaço facial"
+  "label": "Inchaço facial",
+  "selectable": true
  },
  {
   "code": "fx",
   "term": "fx",
-  "label": "Fratura (fx)"
+  "label": "Fratura (fx)",
+  "selectable": false
  },
  {
   "code": "elevated",
   "term": "elevated",
-  "label": "Elevado"
+  "label": "Elevado",
+  "selectable": false
  },
  {
   "code": "pelvic",
   "term": "pelvic",
-  "label": "Pélvico"
+  "label": "Pélvico",
+  "selectable": false
  },
  {
   "code": "calf",
   "term": "calf",
-  "label": "Panturrilha"
+  "label": "Panturrilha",
+  "selectable": false
  },
  {
   "code": "speech",
   "term": "speech",
-  "label": "Fala"
+  "label": "Fala",
+  "selectable": false
  },
  {
   "code": "sdh",
   "term": "sdh",
-  "label": "Hematoma subdural"
+  "label": "Hematoma subdural",
+  "selectable": true
  },
  {
   "code": "finger-injury",
   "term": "finger injury",
-  "label": "Lesão no dedo"
+  "label": "Lesão no dedo",
+  "selectable": true
  },
  {
   "code": "psych-eval",
   "term": "psych eval",
-  "label": "Avaliação psiquiátrica"
+  "label": "Avaliação psiquiátrica",
+  "selectable": true
  },
  {
   "code": "melena",
   "term": "melena",
-  "label": "Melena"
+  "label": "Melena",
+  "selectable": true
  },
  {
   "code": "elbow",
   "term": "elbow",
-  "label": "Cotovelo"
+  "label": "Cotovelo",
+  "selectable": false
  },
  {
   "code": "hypoglycemia",
   "term": "hypoglycemia",
-  "label": "Hipoglicemia"
+  "label": "Hipoglicemia",
+  "selectable": true
  },
  {
   "code": "difficulty",
   "term": "difficulty",
-  "label": "Dificuldade"
+  "label": "Dificuldade",
+  "selectable": false
  },
  {
   "code": "cellulitis",
   "term": "cellulitis",
-  "label": "Celulite"
+  "label": "Celulite",
+  "selectable": true
  },
  {
   "code": "pelvic-pain",
   "term": "pelvic pain",
-  "label": "Dor pélvica"
+  "label": "Dor pélvica",
+  "selectable": true
  },
  {
   "code": "detox",
   "term": "detox",
-  "label": "Desintoxicação"
+  "label": "Desintoxicação",
+  "selectable": true
  },
  {
   "code": "ekg",
   "term": "ekg",
-  "label": "Eletrocardiograma"
+  "label": "Eletrocardiograma",
+  "selectable": false
  },
  {
   "code": "calf-pain",
   "term": "calf pain",
-  "label": "Dor na panturrilha"
+  "label": "Dor na panturrilha",
+  "selectable": true
  },
  {
   "code": "slurred",
   "term": "slurred",
-  "label": "Arrastada"
+  "label": "Arrastada",
+  "selectable": false
  },
  {
   "code": "slurred-speech",
   "term": "slurred speech",
-  "label": "Fala arrastada"
+  "label": "Fala arrastada",
+  "selectable": true
  },
  {
   "code": "gait",
   "term": "gait",
-  "label": "Marcha"
+  "label": "Marcha",
+  "selectable": false
  },
  {
   "code": "unsteady",
   "term": "unsteady",
-  "label": "Instável"
+  "label": "Instável",
+  "selectable": false
  },
  {
   "code": "ich",
   "term": "ich",
-  "label": "Hemorragia intracraniana"
+  "label": "Hemorragia intracraniana",
+  "selectable": true
  },
  {
   "code": "breath",
   "term": "breath",
-  "label": "Respiração"
+  "label": "Respiração",
+  "selectable": false
  },
  {
   "code": "shortness",
   "term": "shortness",
-  "label": "Falta de ar"
+  "label": "Falta de ar",
+  "selectable": false
  },
  {
   "code": "arm-numbness",
   "term": "arm numbness",
-  "label": "Dormência no braço"
+  "label": "Dormência no braço",
+  "selectable": true
  },
  {
   "code": "unsteady-gait",
   "term": "unsteady gait",
-  "label": "Marcha instável"
+  "label": "Marcha instável",
+  "selectable": true
  },
  {
   "code": "facial-numbness",
   "term": "facial numbness",
-  "label": "Dormência facial"
+  "label": "Dormência facial",
+  "selectable": true
  },
  {
   "code": "jaundice",
   "term": "jaundice",
-  "label": "Icterícia"
+  "label": "Icterícia",
+  "selectable": true
  },
  {
   "code": "struck",
   "term": "struck",
-  "label": "Atingido"
+  "label": "Atingido",
+  "selectable": false
  },
  {
   "code": "mri",
   "term": "mri",
-  "label": "Ressonância"
+  "label": "Ressonância",
+  "selectable": false
  },
  {
   "code": "abnormal-ekg",
   "term": "abnormal ekg",
-  "label": "Eletrocardiograma alterado"
+  "label": "Eletrocardiograma alterado",
+  "selectable": true
  },
  {
   "code": "elbow-pain",
   "term": "elbow pain",
-  "label": "Dor no cotovelo"
+  "label": "Dor no cotovelo",
+  "selectable": true
  },
  {
   "code": "failure",
   "term": "failure",
-  "label": "Insuficiência"
+  "label": "Insuficiência",
+  "selectable": false
  },
  {
   "code": "sah",
   "term": "sah",
-  "label": "Hemorragia subaracnóidea"
+  "label": "Hemorragia subaracnóidea",
+  "selectable": true
  },
  {
   "code": "body-pain",
   "term": "body pain",
-  "label": "Dor pelo corpo"
+  "label": "Dor pelo corpo",
+  "selectable": true
  },
  {
   "code": "testicular",
   "term": "testicular",
-  "label": "Testicular"
+  "label": "Testicular",
+  "selectable": false
  },
  {
   "code": "hematemesis",
   "term": "hematemesis",
-  "label": "Hematêmese"
+  "label": "Hematêmese",
+  "selectable": true
  },
  {
   "code": "cva",
   "term": "cva",
-  "label": "Acidente vascular cerebral"
+  "label": "Acidente vascular cerebral",
+  "selectable": true
  },
  {
   "code": "agitation",
   "term": "agitation",
-  "label": "Agitação"
+  "label": "Agitação",
+  "selectable": true
  },
  {
   "code": "bradycardia",
   "term": "bradycardia",
-  "label": "Bradicardia"
+  "label": "Bradicardia",
+  "selectable": true
  },
  {
   "code": "hemoptysis",
   "term": "hemoptysis",
-  "label": "Hemoptise"
+  "label": "Hemoptise",
+  "selectable": true
  },
  {
   "code": "testicular-pain",
   "term": "testicular pain",
-  "label": "Dor testicular"
+  "label": "Dor testicular",
+  "selectable": true
  },
  {
   "code": "blood",
   "term": "blood",
-  "label": "Sangue"
+  "label": "Sangue",
+  "selectable": false
  },
  {
   "code": "ped",
   "term": "ped",
-  "label": "Pedestre"
+  "label": "Pedestre",
+  "selectable": false
  },
  {
   "code": "abnormal-mri",
   "term": "abnormal mri",
-  "label": "Ressonância alterada"
+  "label": "Ressonância alterada",
+  "selectable": true
  },
  {
   "code": "infection",
   "term": "infection",
-  "label": "Infecção"
+  "label": "Infecção",
+  "selectable": true
  },
  {
   "code": "gi",
   "term": "gi",
-  "label": "Gastrointestinal"
+  "label": "Gastrointestinal",
+  "selectable": false
  },
  {
   "code": "aches",
   "term": "aches",
-  "label": "Dores"
+  "label": "Dores",
+  "selectable": false
  },
  {
   "code": "body-aches",
   "term": "body aches",
-  "label": "Dores pelo corpo"
+  "label": "Dores pelo corpo",
+  "selectable": true
  },
  {
   "code": "gi-bleed",
   "term": "gi bleed",
-  "label": "Sangramento gastrointestinal"
+  "label": "Sangramento gastrointestinal",
+  "selectable": true
  },
  {
   "code": "ha",
   "term": "ha",
-  "label": "Cefaleia (ha)"
+  "label": "Cefaleia (ha)",
+  "selectable": false
  },
  {
   "code": "droop",
   "term": "droop",
-  "label": "Desvio de rima"
+  "label": "Desvio de rima",
+  "selectable": false
  },
  {
   "code": "jaw",
   "term": "jaw",
-  "label": "Mandíbula"
+  "label": "Mandíbula",
+  "selectable": false
  },
  {
   "code": "leg-weakness",
   "term": "leg weakness",
-  "label": "Fraqueza na perna"
+  "label": "Fraqueza na perna",
+  "selectable": true
  },
  {
   "code": "accident",
   "term": "accident",
-  "label": "Acidente"
+  "label": "Acidente",
+  "selectable": true
  },
  {
   "code": "facial-droop",
   "term": "facial droop",
-  "label": "Desvio de rima facial"
+  "label": "Desvio de rima facial",
+  "selectable": true
  },
  {
   "code": "pneumonia",
   "term": "pneumonia",
-  "label": "Pneumonia"
+  "label": "Pneumonia",
+  "selectable": true
  },
  {
   "code": "gtube",
   "term": "gtube",
-  "label": "Sonda de gastrostomia"
+  "label": "Sonda de gastrostomia",
+  "selectable": true
  },
  {
   "code": "distress",
   "term": "distress",
-  "label": "Desconforto"
+  "label": "Desconforto",
+  "selectable": false
  },
  {
   "code": "arm-swelling",
   "term": "arm swelling",
-  "label": "Inchaço no braço"
+  "label": "Inchaço no braço",
+  "selectable": true
  },
  {
   "code": "vision",
   "term": "vision",
-  "label": "Visão"
+  "label": "Visão",
+  "selectable": false
  },
  {
   "code": "uti",
   "term": "uti",
-  "label": "Infecção urinária"
+  "label": "Infecção urinária",
+  "selectable": true
  },
  {
   "code": "removal",
   "term": "removal",
-  "label": "Retirada"
+  "label": "Retirada",
+  "selectable": false
  },
  {
   "code": "extremity-pain",
   "term": "extremity pain",
-  "label": "Dor em extremidade"
+  "label": "Dor em extremidade",
+  "selectable": true
  },
  {
   "code": "hyperkalemia",
   "term": "hyperkalemia",
-  "label": "Hiperpotassemia"
+  "label": "Hiperpotassemia",
+  "selectable": true
  },
  {
   "code": "frequency",
   "term": "frequency",
-  "label": "Frequência"
+  "label": "Frequência",
+  "selectable": false
  },
  {
   "code": "luq",
   "term": "luq",
-  "label": "Quadrante superior esquerdo"
+  "label": "Quadrante superior esquerdo",
+  "selectable": false
  },
  {
   "code": "shoulder-injury",
   "term": "shoulder injury",
-  "label": "Lesão no ombro"
+  "label": "Lesão no ombro",
+  "selectable": true
  },
  {
   "code": "inguinal",
   "term": "inguinal",
-  "label": "Inguinal"
+  "label": "Inguinal",
+  "selectable": false
  },
  {
   "code": "urinary-frequency",
   "term": "urinary frequency",
-  "label": "Aumento da frequência urinária"
+  "label": "Aumento da frequência urinária",
+  "selectable": true
  },
  {
   "code": "respiratory",
   "term": "respiratory",
-  "label": "Respiratório"
+  "label": "Respiratório",
+  "selectable": false
  },
  {
   "code": "low",
   "term": "low",
-  "label": "Baixo"
+  "label": "Baixo",
+  "selectable": false
  },
  {
   "code": "inguinal-pain",
   "term": "inguinal pain",
-  "label": "Dor inguinal"
+  "label": "Dor inguinal",
+  "selectable": true
  },
  {
   "code": "wrist-injury",
   "term": "wrist injury",
-  "label": "Lesão no punho"
+  "label": "Lesão no punho",
+  "selectable": true
  },
  {
   "code": "knee-injury",
   "term": "knee injury",
-  "label": "Lesão no joelho"
+  "label": "Lesão no joelho",
+  "selectable": true
  },
  {
   "code": "sbo",
   "term": "sbo",
-  "label": "Obstrução intestinal"
+  "label": "Obstrução intestinal",
+  "selectable": true
  },
  {
   "code": "dog",
   "term": "dog",
-  "label": "Cachorro"
+  "label": "Cachorro",
+  "selectable": false
  },
  {
   "code": "leg-numbness",
   "term": "leg numbness",
-  "label": "Dormência na perna"
+  "label": "Dormência na perna",
+  "selectable": true
  },
  {
   "code": "tube",
   "term": "tube",
-  "label": "Sonda"
+  "label": "Sonda",
+  "selectable": false
  },
  {
   "code": "unresponsive",
   "term": "unresponsive",
-  "label": "Sem resposta"
+  "label": "Sem resposta",
+  "selectable": true
  },
  {
   "code": "chills",
   "term": "chills",
-  "label": "Calafrios"
+  "label": "Calafrios",
+  "selectable": true
  },
  {
   "code": "jaw-pain",
   "term": "jaw pain",
-  "label": "Dor na mandíbula"
+  "label": "Dor na mandíbula",
+  "selectable": true
  },
  {
   "code": "refill",
   "term": "refill",
-  "label": "Reposição"
+  "label": "Reposição",
+  "selectable": false
  },
  {
   "code": "dog-bite",
   "term": "dog bite",
-  "label": "Mordida de cachorro"
+  "label": "Mordida de cachorro",
+  "selectable": true
  },
  {
   "code": "foreign",
   "term": "foreign",
-  "label": "Estranho"
+  "label": "Estranho",
+  "selectable": false
  },
  {
   "code": "foreign-body",
   "term": "foreign body",
-  "label": "Corpo estranho"
+  "label": "Corpo estranho",
+  "selectable": true
  },
  {
   "code": "swallowing",
   "term": "swallowing",
-  "label": "Deglutição"
+  "label": "Deglutição",
+  "selectable": false
  },
  {
   "code": "hand-laceration",
   "term": "hand laceration",
-  "label": "Laceração na mão"
+  "label": "Laceração na mão",
+  "selectable": true
  },
  {
   "code": "breast",
   "term": "breast",
-  "label": "Mama"
+  "label": "Mama",
+  "selectable": false
  },
  {
   "code": "hand-swelling",
   "term": "hand swelling",
-  "label": "Inchaço na mão"
+  "label": "Inchaço na mão",
+  "selectable": true
  },
  {
   "code": "foot-swelling",
   "term": "foot swelling",
-  "label": "Inchaço no pé"
+  "label": "Inchaço no pé",
+  "selectable": true
  },
  {
   "code": "dvt",
   "term": "dvt",
-  "label": "Trombose venosa profunda"
+  "label": "Trombose venosa profunda",
+  "selectable": true
  },
  {
   "code": "head-lac",
   "term": "head lac",
-  "label": "Laceração na cabeça"
+  "label": "Laceração na cabeça",
+  "selectable": true
  },
  {
   "code": "difficulty-swallowing",
   "term": "difficulty swallowing",
-  "label": "Dificuldade para engolir"
+  "label": "Dificuldade para engolir",
+  "selectable": true
  },
  {
   "code": "lip",
   "term": "lip",
-  "label": "Lábio"
+  "label": "Lábio",
+  "selectable": false
  },
  {
   "code": "finger-pain",
   "term": "finger pain",
-  "label": "Dor no dedo"
+  "label": "Dor no dedo",
+  "selectable": true
  },
  {
   "code": "dizzy",
   "term": "dizzy",
-  "label": "Tonto"
+  "label": "Tonto",
+  "selectable": false
  },
  {
   "code": "leg-injury",
   "term": "leg injury",
-  "label": "Lesão na perna"
+  "label": "Lesão na perna",
+  "selectable": true
  },
  {
   "code": "pe",
   "term": "pe",
-  "label": "Embolia pulmonar"
+  "label": "Embolia pulmonar",
+  "selectable": true
  },
  {
   "code": "thumb-laceration",
   "term": "thumb laceration",
-  "label": "Laceração no polegar"
+  "label": "Laceração no polegar",
+  "selectable": true
  },
  {
   "code": "fistula",
   "term": "fistula",
-  "label": "Fístula"
+  "label": "Fístula",
+  "selectable": false
  },
  {
   "code": "line",
   "term": "line",
-  "label": "Acesso venoso"
+  "label": "Acesso venoso",
+  "selectable": false
  },
  {
   "code": "picc",
   "term": "picc",
-  "label": "PICC"
+  "label": "PICC",
+  "selectable": false
  },
  {
   "code": "facial-pain",
   "term": "facial pain",
-  "label": "Dor facial"
+  "label": "Dor facial",
+  "selectable": true
  },
  {
   "code": "suture",
   "term": "suture",
-  "label": "Sutura"
+  "label": "Sutura",
+  "selectable": false
  },
  {
   "code": "edema",
   "term": "edema",
-  "label": "Edema"
+  "label": "Edema",
+  "selectable": true
  },
  {
   "code": "sensation",
   "term": "sensation",
-  "label": "Sensação"
+  "label": "Sensação",
+  "selectable": false
  },
  {
   "code": "suture-removal",
   "term": "suture removal",
-  "label": "Retirada de pontos"
+  "label": "Retirada de pontos",
+  "selectable": true
  },
  {
   "code": "groin",
   "term": "groin",
-  "label": "Virilha"
+  "label": "Virilha",
+  "selectable": false
  },
  {
   "code": "productive-cough",
   "term": "productive cough",
-  "label": "Tosse produtiva"
+  "label": "Tosse produtiva",
+  "selectable": true
  },
  {
   "code": "productive",
   "term": "productive",
-  "label": "Produtiva"
+  "label": "Produtiva",
+  "selectable": false
  },
  {
   "code": "burn",
   "term": "burn",
-  "label": "Queimadura"
+  "label": "Queimadura",
+  "selectable": true
  },
  {
   "code": "hip-fracture",
   "term": "hip fracture",
-  "label": "Fratura de quadril"
+  "label": "Fratura de quadril",
+  "selectable": true
  },
  {
   "code": "h-a",
   "term": "h/a",
-  "label": "Cefaleia (h/a)"
+  "label": "Cefaleia (h/a)",
+  "selectable": false
  },
  {
   "code": "exposure",
   "term": "exposure",
-  "label": "Exposição"
+  "label": "Exposição",
+  "selectable": false
  },
  {
   "code": "atrial",
   "term": "atrial",
-  "label": "Atrial"
+  "label": "Atrial",
+  "selectable": false
  },
  {
   "code": "breast-pain",
   "term": "breast pain",
-  "label": "Dor na mama"
+  "label": "Dor na mama",
+  "selectable": true
  },
  {
   "code": "level",
   "term": "level",
-  "label": "Nível"
+  "label": "Nível",
+  "selectable": false
  },
  {
   "code": "nstemi",
   "term": "nstemi",
-  "label": "Infarto sem supra de ST"
+  "label": "Infarto sem supra de ST",
+  "selectable": true
  },
  {
   "code": "bicycle",
   "term": "bicycle",
-  "label": "Bicicleta"
+  "label": "Bicicleta",
+  "selectable": false
  },
  {
   "code": "fibrillation",
   "term": "fibrillation",
-  "label": "Fibrilação"
+  "label": "Fibrilação",
+  "selectable": false
  },
  {
   "code": "atrial-fibrillation",
   "term": "atrial fibrillation",
-  "label": "Fibrilação atrial"
+  "label": "Fibrilação atrial",
+  "selectable": true
  },
  {
   "code": "respiratory-distress",
   "term": "respiratory distress",
-  "label": "Desconforto respiratório"
+  "label": "Desconforto respiratório",
+  "selectable": true
  },
  {
   "code": "foot-injury",
   "term": "foot injury",
-  "label": "Lesão no pé"
+  "label": "Lesão no pé",
+  "selectable": true
  },
  {
   "code": "med-refill",
   "term": "med refill",
-  "label": "Reposição de medicação"
+  "label": "Reposição de medicação",
+  "selectable": true
  }
 ]

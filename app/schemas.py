@@ -14,7 +14,6 @@ class TriageRequest(BaseModel):
     chief_complaint: str | None = Field(None, alias="queixa_principal")
     keywords: list[str] | None = Field(None, alias="sintomas")
     ambulance: bool | None = Field(None, alias="ambulancia")
-    is_male: bool | None = Field(None, alias="sexo_masculino")
 
 
 class TriageResponse(BaseModel):
@@ -30,3 +29,4 @@ class KeywordResponse(BaseModel):
     code: str = Field(alias="codigo")
     term: str = Field(alias="termo")
     label: str = Field(alias="rotulo")
+    selectable: bool = Field(alias="selecionavel")

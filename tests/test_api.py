@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 import pytest
 from fastapi.testclient import TestClient
-from sklearn.ensemble import HistGradientBoostingClassifier
 
 from app.classifier import TriageClassifier, celsius_to_fahrenheit
 from app.factory import create_app
-from shared.features import FEATURES
+from shared.features import FEATURES, MONOTONIC_CST
+from shared.ordinal import OrdinalClassifier
 from shared.vocabulary import KEYWORDS
 
 
@@ -16,10 +16,10 @@ def classifier(tmp_path_factory) -> TriageClassifier:
     rng = np.random.default_rng(0)
     frame = pd.DataFrame(rng.random((300, len(FEATURES))), columns=FEATURES)
     target = rng.integers(1, 6, size=300)
-    model = HistGradientBoostingClassifier(max_iter=5, random_state=0).fit(frame, target)
+    model = OrdinalClassifier(MONOTONIC_CST, max_iter=5, random_state=0).fit(frame, target)
 
     path = tmp_path_factory.mktemp("model") / "model.pkl"
-    joblib.dump({"model": model, "features": FEATURES}, path)
+    joblib.dump({"model": model, "features": FEATURES, "decision_weights": [1, 1, 1, 1, 1]}, path)
     return TriageClassifier(path)
 
 
@@ -79,5 +79,6 @@ def test_keywords_endpoint_lists_the_whole_vocabulary(client):
     body = client.get("/sintomas").json()
 
     assert len(body) == len(KEYWORDS)
-    assert set(body[0]) == {"codigo", "termo", "rotulo"}
-    assert {"codigo": "chest-pain", "termo": "chest pain", "rotulo": "Dor torácica"} in body
+    assert set(body[0]) == {"codigo", "termo", "rotulo", "selecionavel"}
+    assert {"codigo": "chest-pain", "termo": "chest pain", "rotulo": "Dor torácica", "selecionavel": True} in body
+    assert {"codigo": "toe", "termo": "toe", "rotulo": "Dedo do pé", "selecionavel": False} in body

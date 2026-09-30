@@ -2,14 +2,15 @@ import numpy as np
 import pandas as pd
 
 from shared.config import RAW_DATA_DIR
-from shared.features import BASE_FEATURES, TARGET, VITAL_FEATURES
+from shared.clinical import clinical_features
+from shared.features import FEATURES, TARGET, VITAL_FEATURES
 from shared.vocabulary import KEYWORD_FEATURES, keyword_matrix
 
 TRIAGE_COLUMNS = [
     "stay_id", "temperature", "heartrate", "resprate", "o2sat",
     "sbp", "dbp", "pain", "chiefcomplaint", "acuity",
 ]
-EDSTAYS_COLUMNS = ["stay_id", "arrival_transport", "gender"]
+EDSTAYS_COLUMNS = ["stay_id", "arrival_transport"]
 
 COLUMN_RENAMES = {
     "heartrate": "heart_rate",
@@ -70,7 +71,8 @@ def build_dataset() -> pd.DataFrame:
     df["pain"] = clean_pain(df["pain"])
     df = clean_vitals(df)
     df["arrived_by_ambulance"] = df["arrival_transport"].isin(AMBULANCE_TRANSPORTS).astype(np.uint8)
-    df["is_male"] = (df["gender"] == "M").astype(np.uint8)
 
-    features = df[BASE_FEATURES].astype(np.float32)
-    return pd.concat([features, keyword_columns(df["chiefcomplaint"]), df[TARGET]], axis=1)
+    clinical = clinical_features(df[VITAL_FEATURES])
+    base = pd.concat([clinical, df[["pain", "arrived_by_ambulance"]]], axis=1).astype(np.float32)
+    dataset = pd.concat([base, keyword_columns(df["chiefcomplaint"]), df[TARGET]], axis=1)
+    return dataset[[*FEATURES, TARGET]]

@@ -1,10 +1,13 @@
 from pathlib import Path
 
 import joblib
+import numpy as np
 import pandas as pd
 
 from app.schemas import TriageRequest, TriageResponse
+from shared.clinical import clinical_features
 from shared.config import MODEL_PATH
+from shared.decision import decide
 from shared.features import VITAL_FEATURES
 from shared.manchester import esi_to_color, has_critical_vitals
 from shared.vocabulary import keyword_features
@@ -21,12 +24,13 @@ class TriageClassifier:
         payload = joblib.load(model_path)
         self._model = payload["model"]
         self._features = payload["features"]
+        self._weights = np.asarray(payload["decision_weights"])
 
     def classify(self, request: TriageRequest) -> TriageResponse:
         features = self._build_features(request)
 
         probabilities = self._model.predict_proba(features)[0]
-        best = probabilities.argmax()
+        best = int(decide(probabilities[None, :], self._weights)[0])
         esi = int(self._model.classes_[best])
 
         critical = has_critical_vitals(
@@ -43,11 +47,17 @@ class TriageClassifier:
         )
 
     def _build_features(self, request: TriageRequest) -> pd.DataFrame:
-        row = {
-            **request.model_dump(include={*VITAL_FEATURES, "pain"}),
+        vitals = {
+            **request.model_dump(include=set(VITAL_FEATURES)),
             "temperature": celsius_to_fahrenheit(request.temperature),
+        }
+        clinical = clinical_features(
+            pd.DataFrame([vitals], columns=VITAL_FEATURES).apply(pd.to_numeric, errors="coerce")
+        )
+        row = {
+            **clinical.iloc[0].to_dict(),
+            "pain": request.pain,
             "arrived_by_ambulance": int(bool(request.ambulance)),
-            "is_male": int(bool(request.is_male)),
             **keyword_features(request.keywords or [], request.chief_complaint),
         }
 
