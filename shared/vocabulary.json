@@ -1,0 +1,1437 @@
+[
+ {
+  "code": "pain",
+  "term": "pain",
+  "label": "Dor"
+ },
+ {
+  "code": "abd",
+  "term": "abd",
+  "label": "Abdome"
+ },
+ {
+  "code": "abd-pain",
+  "term": "abd pain",
+  "label": "Dor abdominal"
+ },
+ {
+  "code": "chest",
+  "term": "chest",
+  "label": "Tórax"
+ },
+ {
+  "code": "chest-pain",
+  "term": "chest pain",
+  "label": "Dor torácica"
+ },
+ {
+  "code": "s-p",
+  "term": "s/p",
+  "label": "Status pós (s/p)"
+ },
+ {
+  "code": "transfer",
+  "term": "transfer",
+  "label": "Transferência de outro serviço"
+ },
+ {
+  "code": "fall",
+  "term": "fall",
+  "label": "Queda"
+ },
+ {
+  "code": "s-p-fall",
+  "term": "s/p fall",
+  "label": "Queda (s/p fall)"
+ },
+ {
+  "code": "dyspnea",
+  "term": "dyspnea",
+  "label": "Dispneia (falta de ar)"
+ },
+ {
+  "code": "back",
+  "term": "back",
+  "label": "Costas"
+ },
+ {
+  "code": "back-pain",
+  "term": "back pain",
+  "label": "Dor nas costas"
+ },
+ {
+  "code": "abdominal",
+  "term": "abdominal",
+  "label": "Abdominal"
+ },
+ {
+  "code": "headache",
+  "term": "headache",
+  "label": "Cefaleia"
+ },
+ {
+  "code": "fever",
+  "term": "fever",
+  "label": "Febre"
+ },
+ {
+  "code": "abdominal-pain",
+  "term": "abdominal pain",
+  "label": "Dor abdominal"
+ },
+ {
+  "code": "eval",
+  "term": "eval",
+  "label": "Avaliação"
+ },
+ {
+  "code": "injury",
+  "term": "injury",
+  "label": "Lesão ou trauma"
+ },
+ {
+  "code": "leg",
+  "term": "leg",
+  "label": "Perna"
+ },
+ {
+  "code": "weakness",
+  "term": "weakness",
+  "label": "Fraqueza"
+ },
+ {
+  "code": "etoh",
+  "term": "etoh",
+  "label": "Intoxicação alcoólica"
+ },
+ {
+  "code": "dizziness",
+  "term": "dizziness",
+  "label": "Tontura"
+ },
+ {
+  "code": "n-v",
+  "term": "n/v",
+  "label": "Náusea e vômito"
+ },
+ {
+  "code": "abnormal",
+  "term": "abnormal",
+  "label": "Alterado"
+ },
+ {
+  "code": "swelling",
+  "term": "swelling",
+  "label": "Inchaço"
+ },
+ {
+  "code": "wound",
+  "term": "wound",
+  "label": "Ferimento"
+ },
+ {
+  "code": "lower",
+  "term": "lower",
+  "label": "Inferior"
+ },
+ {
+  "code": "si",
+  "term": "si",
+  "label": "Ideação suicida"
+ },
+ {
+  "code": "cough",
+  "term": "cough",
+  "label": "Tosse"
+ },
+ {
+  "code": "wound-eval",
+  "term": "wound eval",
+  "label": "Avaliação de ferimento"
+ },
+ {
+  "code": "flank",
+  "term": "flank",
+  "label": "Flanco"
+ },
+ {
+  "code": "flank-pain",
+  "term": "flank pain",
+  "label": "Dor no flanco"
+ },
+ {
+  "code": "altered",
+  "term": "altered",
+  "label": "Alteração"
+ },
+ {
+  "code": "leg-pain",
+  "term": "leg pain",
+  "label": "Dor na perna"
+ },
+ {
+  "code": "mental",
+  "term": "mental",
+  "label": "Mental"
+ },
+ {
+  "code": "status",
+  "term": "status",
+  "label": "Estado"
+ },
+ {
+  "code": "foot",
+  "term": "foot",
+  "label": "Pé"
+ },
+ {
+  "code": "mental-status",
+  "term": "mental status",
+  "label": "Estado mental"
+ },
+ {
+  "code": "arm",
+  "term": "arm",
+  "label": "Braço"
+ },
+ {
+  "code": "knee",
+  "term": "knee",
+  "label": "Joelho"
+ },
+ {
+  "code": "altered-mental",
+  "term": "altered mental",
+  "label": "Alteração do estado mental"
+ },
+ {
+  "code": "syncope",
+  "term": "syncope",
+  "label": "Síncope"
+ },
+ {
+  "code": "mvc",
+  "term": "mvc",
+  "label": "Acidente de veículo"
+ },
+ {
+  "code": "labs",
+  "term": "labs",
+  "label": "Exames laboratoriais"
+ },
+ {
+  "code": "lower-back",
+  "term": "lower back",
+  "label": "Região lombar"
+ },
+ {
+  "code": "nausea",
+  "term": "nausea",
+  "label": "Náusea"
+ },
+ {
+  "code": "laceration",
+  "term": "laceration",
+  "label": "Laceração"
+ },
+ {
+  "code": "abnormal-labs",
+  "term": "abnormal labs",
+  "label": "Exames laboratoriais alterados"
+ },
+ {
+  "code": "throat",
+  "term": "throat",
+  "label": "Garganta"
+ },
+ {
+  "code": "ili",
+  "term": "ili",
+  "label": "Síndrome gripal"
+ },
+ {
+  "code": "neck",
+  "term": "neck",
+  "label": "Pescoço"
+ },
+ {
+  "code": "knee-pain",
+  "term": "knee pain",
+  "label": "Dor no joelho"
+ },
+ {
+  "code": "vomiting",
+  "term": "vomiting",
+  "label": "Vômito"
+ },
+ {
+  "code": "shoulder",
+  "term": "shoulder",
+  "label": "Ombro"
+ },
+ {
+  "code": "sore",
+  "term": "sore",
+  "label": "Dolorido"
+ },
+ {
+  "code": "hand",
+  "term": "hand",
+  "label": "Mão"
+ },
+ {
+  "code": "sore-throat",
+  "term": "sore throat",
+  "label": "Dor de garganta"
+ },
+ {
+  "code": "neck-pain",
+  "term": "neck pain",
+  "label": "Dor no pescoço"
+ },
+ {
+  "code": "head",
+  "term": "head",
+  "label": "Cabeça"
+ },
+ {
+  "code": "palpitations",
+  "term": "palpitations",
+  "label": "Palpitações"
+ },
+ {
+  "code": "n-v-d",
+  "term": "n/v/d",
+  "label": "Náusea, vômito e diarreia"
+ },
+ {
+  "code": "ankle",
+  "term": "ankle",
+  "label": "Tornozelo"
+ },
+ {
+  "code": "brbpr",
+  "term": "brbpr",
+  "label": "Sangramento retal vivo"
+ },
+ {
+  "code": "hip",
+  "term": "hip",
+  "label": "Quadril"
+ },
+ {
+  "code": "foot-pain",
+  "term": "foot pain",
+  "label": "Dor no pé"
+ },
+ {
+  "code": "diarrhea",
+  "term": "diarrhea",
+  "label": "Diarreia"
+ },
+ {
+  "code": "seizure",
+  "term": "seizure",
+  "label": "Convulsão"
+ },
+ {
+  "code": "numbness",
+  "term": "numbness",
+  "label": "Dormência"
+ },
+ {
+  "code": "facial",
+  "term": "facial",
+  "label": "Facial"
+ },
+ {
+  "code": "shoulder-pain",
+  "term": "shoulder pain",
+  "label": "Dor no ombro"
+ },
+ {
+  "code": "finger",
+  "term": "finger",
+  "label": "Dedo da mão"
+ },
+ {
+  "code": "eye",
+  "term": "eye",
+  "label": "Olho"
+ },
+ {
+  "code": "leg-swelling",
+  "term": "leg swelling",
+  "label": "Inchaço na perna"
+ },
+ {
+  "code": "rash",
+  "term": "rash",
+  "label": "Erupção cutânea"
+ },
+ {
+  "code": "bleeding",
+  "term": "bleeding",
+  "label": "Sangramento"
+ },
+ {
+  "code": "dysuria",
+  "term": "dysuria",
+  "label": "Disúria"
+ },
+ {
+  "code": "vaginal",
+  "term": "vaginal",
+  "label": "Vaginal"
+ },
+ {
+  "code": "hip-pain",
+  "term": "hip pain",
+  "label": "Dor no quadril"
+ },
+ {
+  "code": "rlq",
+  "term": "rlq",
+  "label": "Quadrante inferior direito"
+ },
+ {
+  "code": "arm-pain",
+  "term": "arm pain",
+  "label": "Dor no braço"
+ },
+ {
+  "code": "head-injury",
+  "term": "head injury",
+  "label": "Trauma de cabeça"
+ },
+ {
+  "code": "anxiety",
+  "term": "anxiety",
+  "label": "Ansiedade"
+ },
+ {
+  "code": "rlq-abdominal",
+  "term": "rlq abdominal",
+  "label": "Abdome em quadrante inferior direito"
+ },
+ {
+  "code": "unable",
+  "term": "unable",
+  "label": "Incapaz"
+ },
+ {
+  "code": "urinary",
+  "term": "urinary",
+  "label": "Urinário"
+ },
+ {
+  "code": "allergic",
+  "term": "allergic",
+  "label": "Alérgico"
+ },
+ {
+  "code": "ambulate",
+  "term": "ambulate",
+  "label": "Deambular"
+ },
+ {
+  "code": "hematuria",
+  "term": "hematuria",
+  "label": "Hematúria"
+ },
+ {
+  "code": "reaction",
+  "term": "reaction",
+  "label": "Reação"
+ },
+ {
+  "code": "vaginal-bleeding",
+  "term": "vaginal bleeding",
+  "label": "Sangramento vaginal"
+ },
+ {
+  "code": "allergic-reaction",
+  "term": "allergic reaction",
+  "label": "Reação alérgica"
+ },
+ {
+  "code": "confusion",
+  "term": "confusion",
+  "label": "Confusão mental"
+ },
+ {
+  "code": "hypertension",
+  "term": "hypertension",
+  "label": "Hipertensão"
+ },
+ {
+  "code": "changes",
+  "term": "changes",
+  "label": "Alterações"
+ },
+ {
+  "code": "hyperglycemia",
+  "term": "hyperglycemia",
+  "label": "Hiperglicemia"
+ },
+ {
+  "code": "hypotension",
+  "term": "hypotension",
+  "label": "Hipotensão"
+ },
+ {
+  "code": "epigastric",
+  "term": "epigastric",
+  "label": "Epigástrico"
+ },
+ {
+  "code": "epigastric-pain",
+  "term": "epigastric pain",
+  "label": "Dor epigástrica"
+ },
+ {
+  "code": "pregnant",
+  "term": "pregnant",
+  "label": "Gestante"
+ },
+ {
+  "code": "assault",
+  "term": "assault",
+  "label": "Agressão"
+ },
+ {
+  "code": "depression",
+  "term": "depression",
+  "label": "Depressão"
+ },
+ {
+  "code": "ruq",
+  "term": "ruq",
+  "label": "Quadrante superior direito"
+ },
+ {
+  "code": "ankle-pain",
+  "term": "ankle pain",
+  "label": "Dor no tornozelo"
+ },
+ {
+  "code": "eye-pain",
+  "term": "eye pain",
+  "label": "Dor no olho"
+ },
+ {
+  "code": "ear",
+  "term": "ear",
+  "label": "Ouvido"
+ },
+ {
+  "code": "wrist",
+  "term": "wrist",
+  "label": "Punho"
+ },
+ {
+  "code": "tachycardia",
+  "term": "tachycardia",
+  "label": "Taquicardia"
+ },
+ {
+  "code": "ruq-abdominal",
+  "term": "ruq abdominal",
+  "label": "Abdome em quadrante superior direito"
+ },
+ {
+  "code": "lightheaded",
+  "term": "lightheaded",
+  "label": "Cabeça leve"
+ },
+ {
+  "code": "lower-abdominal",
+  "term": "lower abdominal",
+  "label": "Dor abdominal baixa"
+ },
+ {
+  "code": "llq",
+  "term": "llq",
+  "label": "Quadrante inferior esquerdo"
+ },
+ {
+  "code": "exertion",
+  "term": "exertion",
+  "label": "Esforço"
+ },
+ {
+  "code": "on-exertion",
+  "term": "on exertion",
+  "label": "Aos esforços"
+ },
+ {
+  "code": "retention",
+  "term": "retention",
+  "label": "Retenção"
+ },
+ {
+  "code": "ear-pain",
+  "term": "ear pain",
+  "label": "Dor de ouvido"
+ },
+ {
+  "code": "psych",
+  "term": "psych",
+  "label": "Psiquiátrico"
+ },
+ {
+  "code": "urinary-retention",
+  "term": "urinary retention",
+  "label": "Retenção urinária"
+ },
+ {
+  "code": "presyncope",
+  "term": "presyncope",
+  "label": "Pré-síncope"
+ },
+ {
+  "code": "visual",
+  "term": "visual",
+  "label": "Visual"
+ },
+ {
+  "code": "cp",
+  "term": "cp",
+  "label": "Dor torácica (cp)"
+ },
+ {
+  "code": "llq-abdominal",
+  "term": "llq abdominal",
+  "label": "Abdome em quadrante inferior esquerdo"
+ },
+ {
+  "code": "ct",
+  "term": "ct",
+  "label": "Tomografia"
+ },
+ {
+  "code": "sob",
+  "term": "sob",
+  "label": "Falta de ar (sob)"
+ },
+ {
+  "code": "substance",
+  "term": "substance",
+  "label": "Substância"
+ },
+ {
+  "code": "fracture",
+  "term": "fracture",
+  "label": "Fratura"
+ },
+ {
+  "code": "visual-changes",
+  "term": "visual changes",
+  "label": "Alterações visuais"
+ },
+ {
+  "code": "abnormal-ct",
+  "term": "abnormal ct",
+  "label": "Tomografia alterada"
+ },
+ {
+  "code": "abscess",
+  "term": "abscess",
+  "label": "Abscesso"
+ },
+ {
+  "code": "anemia",
+  "term": "anemia",
+  "label": "Anemia"
+ },
+ {
+  "code": "ankle-injury",
+  "term": "ankle injury",
+  "label": "Lesão no tornozelo"
+ },
+ {
+  "code": "constipation",
+  "term": "constipation",
+  "label": "Constipação"
+ },
+ {
+  "code": "rectal",
+  "term": "rectal",
+  "label": "Retal"
+ },
+ {
+  "code": "distention",
+  "term": "distention",
+  "label": "Distensão"
+ },
+ {
+  "code": "toe",
+  "term": "toe",
+  "label": "Dedo do pé"
+ },
+ {
+  "code": "lethargy",
+  "term": "lethargy",
+  "label": "Letargia"
+ },
+ {
+  "code": "abdominal-distention",
+  "term": "abdominal distention",
+  "label": "Distensão abdominal"
+ },
+ {
+  "code": "bite",
+  "term": "bite",
+  "label": "Mordida"
+ },
+ {
+  "code": "rib",
+  "term": "rib",
+  "label": "Costela"
+ },
+ {
+  "code": "finger-laceration",
+  "term": "finger laceration",
+  "label": "Laceração no dedo"
+ },
+ {
+  "code": "hypoxia",
+  "term": "hypoxia",
+  "label": "Hipóxia"
+ },
+ {
+  "code": "asthma",
+  "term": "asthma",
+  "label": "Asma"
+ },
+ {
+  "code": "hand-injury",
+  "term": "hand injury",
+  "label": "Lesão na mão"
+ },
+ {
+  "code": "lac",
+  "term": "lac",
+  "label": "Laceração (lac)"
+ },
+ {
+  "code": "exacerbation",
+  "term": "exacerbation",
+  "label": "Exacerbação"
+ },
+ {
+  "code": "wrist-pain",
+  "term": "wrist pain",
+  "label": "Dor no punho"
+ },
+ {
+  "code": "overdose",
+  "term": "overdose",
+  "label": "Overdose"
+ },
+ {
+  "code": "asthma-exacerbation",
+  "term": "asthma exacerbation",
+  "label": "Crise de asma"
+ },
+ {
+  "code": "rib-pain",
+  "term": "rib pain",
+  "label": "Dor nas costelas"
+ },
+ {
+  "code": "epistaxis",
+  "term": "epistaxis",
+  "label": "Sangramento nasal"
+ },
+ {
+  "code": "rectal-pain",
+  "term": "rectal pain",
+  "label": "Dor retal"
+ },
+ {
+  "code": "thumb",
+  "term": "thumb",
+  "label": "Polegar"
+ },
+ {
+  "code": "fatigue",
+  "term": "fatigue",
+  "label": "Fadiga"
+ },
+ {
+  "code": "substance-use",
+  "term": "substance use",
+  "label": "Uso de substâncias"
+ },
+ {
+  "code": "extremity",
+  "term": "extremity",
+  "label": "Extremidade"
+ },
+ {
+  "code": "redness",
+  "term": "redness",
+  "label": "Vermelhidão"
+ },
+ {
+  "code": "upper",
+  "term": "upper",
+  "label": "Superior"
+ },
+ {
+  "code": "hand-pain",
+  "term": "hand pain",
+  "label": "Dor na mão"
+ },
+ {
+  "code": "dental",
+  "term": "dental",
+  "label": "Dentário"
+ },
+ {
+  "code": "toe-pain",
+  "term": "toe pain",
+  "label": "Dor no dedo do pé"
+ },
+ {
+  "code": "cardiac",
+  "term": "cardiac",
+  "label": "Cardíaco"
+ },
+ {
+  "code": "dental-pain",
+  "term": "dental pain",
+  "label": "Dor de dente"
+ },
+ {
+  "code": "facial-swelling",
+  "term": "facial swelling",
+  "label": "Inchaço facial"
+ },
+ {
+  "code": "fx",
+  "term": "fx",
+  "label": "Fratura (fx)"
+ },
+ {
+  "code": "elevated",
+  "term": "elevated",
+  "label": "Elevado"
+ },
+ {
+  "code": "pelvic",
+  "term": "pelvic",
+  "label": "Pélvico"
+ },
+ {
+  "code": "calf",
+  "term": "calf",
+  "label": "Panturrilha"
+ },
+ {
+  "code": "speech",
+  "term": "speech",
+  "label": "Fala"
+ },
+ {
+  "code": "sdh",
+  "term": "sdh",
+  "label": "Hematoma subdural"
+ },
+ {
+  "code": "finger-injury",
+  "term": "finger injury",
+  "label": "Lesão no dedo"
+ },
+ {
+  "code": "psych-eval",
+  "term": "psych eval",
+  "label": "Avaliação psiquiátrica"
+ },
+ {
+  "code": "melena",
+  "term": "melena",
+  "label": "Melena"
+ },
+ {
+  "code": "elbow",
+  "term": "elbow",
+  "label": "Cotovelo"
+ },
+ {
+  "code": "hypoglycemia",
+  "term": "hypoglycemia",
+  "label": "Hipoglicemia"
+ },
+ {
+  "code": "difficulty",
+  "term": "difficulty",
+  "label": "Dificuldade"
+ },
+ {
+  "code": "cellulitis",
+  "term": "cellulitis",
+  "label": "Celulite"
+ },
+ {
+  "code": "pelvic-pain",
+  "term": "pelvic pain",
+  "label": "Dor pélvica"
+ },
+ {
+  "code": "detox",
+  "term": "detox",
+  "label": "Desintoxicação"
+ },
+ {
+  "code": "ekg",
+  "term": "ekg",
+  "label": "Eletrocardiograma"
+ },
+ {
+  "code": "calf-pain",
+  "term": "calf pain",
+  "label": "Dor na panturrilha"
+ },
+ {
+  "code": "slurred",
+  "term": "slurred",
+  "label": "Arrastada"
+ },
+ {
+  "code": "slurred-speech",
+  "term": "slurred speech",
+  "label": "Fala arrastada"
+ },
+ {
+  "code": "gait",
+  "term": "gait",
+  "label": "Marcha"
+ },
+ {
+  "code": "unsteady",
+  "term": "unsteady",
+  "label": "Instável"
+ },
+ {
+  "code": "ich",
+  "term": "ich",
+  "label": "Hemorragia intracraniana"
+ },
+ {
+  "code": "breath",
+  "term": "breath",
+  "label": "Respiração"
+ },
+ {
+  "code": "shortness",
+  "term": "shortness",
+  "label": "Falta de ar"
+ },
+ {
+  "code": "arm-numbness",
+  "term": "arm numbness",
+  "label": "Dormência no braço"
+ },
+ {
+  "code": "unsteady-gait",
+  "term": "unsteady gait",
+  "label": "Marcha instável"
+ },
+ {
+  "code": "facial-numbness",
+  "term": "facial numbness",
+  "label": "Dormência facial"
+ },
+ {
+  "code": "jaundice",
+  "term": "jaundice",
+  "label": "Icterícia"
+ },
+ {
+  "code": "struck",
+  "term": "struck",
+  "label": "Atingido"
+ },
+ {
+  "code": "mri",
+  "term": "mri",
+  "label": "Ressonância"
+ },
+ {
+  "code": "abnormal-ekg",
+  "term": "abnormal ekg",
+  "label": "Eletrocardiograma alterado"
+ },
+ {
+  "code": "elbow-pain",
+  "term": "elbow pain",
+  "label": "Dor no cotovelo"
+ },
+ {
+  "code": "failure",
+  "term": "failure",
+  "label": "Insuficiência"
+ },
+ {
+  "code": "sah",
+  "term": "sah",
+  "label": "Hemorragia subaracnóidea"
+ },
+ {
+  "code": "body-pain",
+  "term": "body pain",
+  "label": "Dor pelo corpo"
+ },
+ {
+  "code": "testicular",
+  "term": "testicular",
+  "label": "Testicular"
+ },
+ {
+  "code": "hematemesis",
+  "term": "hematemesis",
+  "label": "Hematêmese"
+ },
+ {
+  "code": "cva",
+  "term": "cva",
+  "label": "Acidente vascular cerebral"
+ },
+ {
+  "code": "agitation",
+  "term": "agitation",
+  "label": "Agitação"
+ },
+ {
+  "code": "bradycardia",
+  "term": "bradycardia",
+  "label": "Bradicardia"
+ },
+ {
+  "code": "hemoptysis",
+  "term": "hemoptysis",
+  "label": "Hemoptise"
+ },
+ {
+  "code": "testicular-pain",
+  "term": "testicular pain",
+  "label": "Dor testicular"
+ },
+ {
+  "code": "blood",
+  "term": "blood",
+  "label": "Sangue"
+ },
+ {
+  "code": "ped",
+  "term": "ped",
+  "label": "Pedestre"
+ },
+ {
+  "code": "abnormal-mri",
+  "term": "abnormal mri",
+  "label": "Ressonância alterada"
+ },
+ {
+  "code": "infection",
+  "term": "infection",
+  "label": "Infecção"
+ },
+ {
+  "code": "gi",
+  "term": "gi",
+  "label": "Gastrointestinal"
+ },
+ {
+  "code": "aches",
+  "term": "aches",
+  "label": "Dores"
+ },
+ {
+  "code": "body-aches",
+  "term": "body aches",
+  "label": "Dores pelo corpo"
+ },
+ {
+  "code": "gi-bleed",
+  "term": "gi bleed",
+  "label": "Sangramento gastrointestinal"
+ },
+ {
+  "code": "ha",
+  "term": "ha",
+  "label": "Cefaleia (ha)"
+ },
+ {
+  "code": "droop",
+  "term": "droop",
+  "label": "Desvio de rima"
+ },
+ {
+  "code": "jaw",
+  "term": "jaw",
+  "label": "Mandíbula"
+ },
+ {
+  "code": "leg-weakness",
+  "term": "leg weakness",
+  "label": "Fraqueza na perna"
+ },
+ {
+  "code": "accident",
+  "term": "accident",
+  "label": "Acidente"
+ },
+ {
+  "code": "facial-droop",
+  "term": "facial droop",
+  "label": "Desvio de rima facial"
+ },
+ {
+  "code": "pneumonia",
+  "term": "pneumonia",
+  "label": "Pneumonia"
+ },
+ {
+  "code": "gtube",
+  "term": "gtube",
+  "label": "Sonda de gastrostomia"
+ },
+ {
+  "code": "distress",
+  "term": "distress",
+  "label": "Desconforto"
+ },
+ {
+  "code": "arm-swelling",
+  "term": "arm swelling",
+  "label": "Inchaço no braço"
+ },
+ {
+  "code": "vision",
+  "term": "vision",
+  "label": "Visão"
+ },
+ {
+  "code": "uti",
+  "term": "uti",
+  "label": "Infecção urinária"
+ },
+ {
+  "code": "removal",
+  "term": "removal",
+  "label": "Retirada"
+ },
+ {
+  "code": "extremity-pain",
+  "term": "extremity pain",
+  "label": "Dor em extremidade"
+ },
+ {
+  "code": "hyperkalemia",
+  "term": "hyperkalemia",
+  "label": "Hiperpotassemia"
+ },
+ {
+  "code": "frequency",
+  "term": "frequency",
+  "label": "Frequência"
+ },
+ {
+  "code": "luq",
+  "term": "luq",
+  "label": "Quadrante superior esquerdo"
+ },
+ {
+  "code": "shoulder-injury",
+  "term": "shoulder injury",
+  "label": "Lesão no ombro"
+ },
+ {
+  "code": "inguinal",
+  "term": "inguinal",
+  "label": "Inguinal"
+ },
+ {
+  "code": "urinary-frequency",
+  "term": "urinary frequency",
+  "label": "Aumento da frequência urinária"
+ },
+ {
+  "code": "respiratory",
+  "term": "respiratory",
+  "label": "Respiratório"
+ },
+ {
+  "code": "low",
+  "term": "low",
+  "label": "Baixo"
+ },
+ {
+  "code": "inguinal-pain",
+  "term": "inguinal pain",
+  "label": "Dor inguinal"
+ },
+ {
+  "code": "wrist-injury",
+  "term": "wrist injury",
+  "label": "Lesão no punho"
+ },
+ {
+  "code": "knee-injury",
+  "term": "knee injury",
+  "label": "Lesão no joelho"
+ },
+ {
+  "code": "sbo",
+  "term": "sbo",
+  "label": "Obstrução intestinal"
+ },
+ {
+  "code": "dog",
+  "term": "dog",
+  "label": "Cachorro"
+ },
+ {
+  "code": "leg-numbness",
+  "term": "leg numbness",
+  "label": "Dormência na perna"
+ },
+ {
+  "code": "tube",
+  "term": "tube",
+  "label": "Sonda"
+ },
+ {
+  "code": "unresponsive",
+  "term": "unresponsive",
+  "label": "Sem resposta"
+ },
+ {
+  "code": "chills",
+  "term": "chills",
+  "label": "Calafrios"
+ },
+ {
+  "code": "jaw-pain",
+  "term": "jaw pain",
+  "label": "Dor na mandíbula"
+ },
+ {
+  "code": "refill",
+  "term": "refill",
+  "label": "Reposição"
+ },
+ {
+  "code": "dog-bite",
+  "term": "dog bite",
+  "label": "Mordida de cachorro"
+ },
+ {
+  "code": "foreign",
+  "term": "foreign",
+  "label": "Estranho"
+ },
+ {
+  "code": "foreign-body",
+  "term": "foreign body",
+  "label": "Corpo estranho"
+ },
+ {
+  "code": "swallowing",
+  "term": "swallowing",
+  "label": "Deglutição"
+ },
+ {
+  "code": "hand-laceration",
+  "term": "hand laceration",
+  "label": "Laceração na mão"
+ },
+ {
+  "code": "breast",
+  "term": "breast",
+  "label": "Mama"
+ },
+ {
+  "code": "hand-swelling",
+  "term": "hand swelling",
+  "label": "Inchaço na mão"
+ },
+ {
+  "code": "foot-swelling",
+  "term": "foot swelling",
+  "label": "Inchaço no pé"
+ },
+ {
+  "code": "dvt",
+  "term": "dvt",
+  "label": "Trombose venosa profunda"
+ },
+ {
+  "code": "head-lac",
+  "term": "head lac",
+  "label": "Laceração na cabeça"
+ },
+ {
+  "code": "difficulty-swallowing",
+  "term": "difficulty swallowing",
+  "label": "Dificuldade para engolir"
+ },
+ {
+  "code": "lip",
+  "term": "lip",
+  "label": "Lábio"
+ },
+ {
+  "code": "finger-pain",
+  "term": "finger pain",
+  "label": "Dor no dedo"
+ },
+ {
+  "code": "dizzy",
+  "term": "dizzy",
+  "label": "Tonto"
+ },
+ {
+  "code": "leg-injury",
+  "term": "leg injury",
+  "label": "Lesão na perna"
+ },
+ {
+  "code": "pe",
+  "term": "pe",
+  "label": "Embolia pulmonar"
+ },
+ {
+  "code": "thumb-laceration",
+  "term": "thumb laceration",
+  "label": "Laceração no polegar"
+ },
+ {
+  "code": "fistula",
+  "term": "fistula",
+  "label": "Fístula"
+ },
+ {
+  "code": "line",
+  "term": "line",
+  "label": "Acesso venoso"
+ },
+ {
+  "code": "picc",
+  "term": "picc",
+  "label": "PICC"
+ },
+ {
+  "code": "facial-pain",
+  "term": "facial pain",
+  "label": "Dor facial"
+ },
+ {
+  "code": "suture",
+  "term": "suture",
+  "label": "Sutura"
+ },
+ {
+  "code": "edema",
+  "term": "edema",
+  "label": "Edema"
+ },
+ {
+  "code": "sensation",
+  "term": "sensation",
+  "label": "Sensação"
+ },
+ {
+  "code": "suture-removal",
+  "term": "suture removal",
+  "label": "Retirada de pontos"
+ },
+ {
+  "code": "groin",
+  "term": "groin",
+  "label": "Virilha"
+ },
+ {
+  "code": "productive-cough",
+  "term": "productive cough",
+  "label": "Tosse produtiva"
+ },
+ {
+  "code": "productive",
+  "term": "productive",
+  "label": "Produtiva"
+ },
+ {
+  "code": "burn",
+  "term": "burn",
+  "label": "Queimadura"
+ },
+ {
+  "code": "hip-fracture",
+  "term": "hip fracture",
+  "label": "Fratura de quadril"
+ },
+ {
+  "code": "h-a",
+  "term": "h/a",
+  "label": "Cefaleia (h/a)"
+ },
+ {
+  "code": "exposure",
+  "term": "exposure",
+  "label": "Exposição"
+ },
+ {
+  "code": "atrial",
+  "term": "atrial",
+  "label": "Atrial"
+ },
+ {
+  "code": "breast-pain",
+  "term": "breast pain",
+  "label": "Dor na mama"
+ },
+ {
+  "code": "level",
+  "term": "level",
+  "label": "Nível"
+ },
+ {
+  "code": "nstemi",
+  "term": "nstemi",
+  "label": "Infarto sem supra de ST"
+ },
+ {
+  "code": "bicycle",
+  "term": "bicycle",
+  "label": "Bicicleta"
+ },
+ {
+  "code": "fibrillation",
+  "term": "fibrillation",
+  "label": "Fibrilação"
+ },
+ {
+  "code": "atrial-fibrillation",
+  "term": "atrial fibrillation",
+  "label": "Fibrilação atrial"
+ },
+ {
+  "code": "respiratory-distress",
+  "term": "respiratory distress",
+  "label": "Desconforto respiratório"
+ },
+ {
+  "code": "foot-injury",
+  "term": "foot injury",
+  "label": "Lesão no pé"
+ },
+ {
+  "code": "med-refill",
+  "term": "med refill",
+  "label": "Reposição de medicação"
+ }
+]
