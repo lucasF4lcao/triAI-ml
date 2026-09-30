@@ -9,7 +9,7 @@ from shared.clinical import clinical_features
 from shared.config import MODEL_PATH
 from shared.decision import decide
 from shared.features import VITAL_FEATURES
-from shared.manchester import esi_to_color, has_critical_vitals
+from shared.manchester import CRITICAL_COLOR, ESI_TO_COLOR, esi_to_color, has_critical_vitals
 from shared.vocabulary import keyword_features
 
 CONFIDENCE_DECIMALS = 4
@@ -41,9 +41,17 @@ class TriageClassifier:
             temperature_celsius=request.temperature,
         )
 
+        model_color = esi_to_color(esi, critical=False)
+        color = esi_to_color(esi, critical=critical)
+
         return TriageResponse(
-            predicted_color=esi_to_color(esi, critical=critical),
+            predicted_color=color,
             confidence=round(float(probabilities[best]), CONFIDENCE_DECIMALS),
+            probabilities={
+                ESI_TO_COLOR[int(level)]: round(float(value), CONFIDENCE_DECIMALS)
+                for level, value in zip(self._model.classes_, probabilities)
+            },
+            safety_rule_applied=color == CRITICAL_COLOR and model_color != CRITICAL_COLOR,
         )
 
     def _build_features(self, request: TriageRequest) -> pd.DataFrame:

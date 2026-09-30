@@ -21,6 +21,8 @@ class TriageResponse(BaseModel):
 
     predicted_color: str = Field(alias="corPrevista")
     confidence: float = Field(alias="confianca")
+    probabilities: dict[str, float] = Field(alias="probabilidades")
+    safety_rule_applied: bool = Field(alias="regraDeSeguranca")
 
 
 class KeywordResponse(BaseModel):

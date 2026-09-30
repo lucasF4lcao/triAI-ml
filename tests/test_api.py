@@ -54,7 +54,9 @@ def test_classify_accepts_the_portuguese_contract_used_by_the_java_api(client):
 
     body = response.json()
     assert response.status_code == 200
-    assert set(body) == {"corPrevista", "confianca"}
+    assert set(body) == {"corPrevista", "confianca", "probabilidades", "regraDeSeguranca"}
+    assert set(body["probabilidades"]) == {"Vermelho", "Laranja", "Amarelo", "Verde", "Azul"}
+    assert sum(body["probabilidades"].values()) == pytest.approx(1.0, abs=1e-3)
     assert body["corPrevista"] in {"Vermelho", "Laranja", "Amarelo", "Verde", "Azul"}
     assert 0 <= body["confianca"] <= 1
 

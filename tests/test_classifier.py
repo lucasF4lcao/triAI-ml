@@ -23,6 +23,11 @@ class StubModel:
         return np.tile([[0.05, 0.15, 0.45, 0.30, 0.05]], (len(frame), 1))
 
 
+class RedModel(StubModel):
+    def predict_proba(self, frame):
+        return np.tile([[0.80, 0.10, 0.05, 0.03, 0.02]], (len(frame), 1))
+
+
 def classifier(tmp_path, weights) -> TriageClassifier:
     from shared.features import FEATURES
 
@@ -70,3 +75,32 @@ def test_sex_does_not_change_the_model_input(tmp_path):
 
     assert male.equals(female)
     assert "is_male" not in male.columns
+
+
+def test_the_response_carries_the_probability_of_every_color(tmp_path):
+    response = classifier(tmp_path, [1, 1, 1, 1, 1]).classify(TriageRequest(**NORMAL))
+
+    assert response.probabilities == {"Vermelho": 0.05, "Laranja": 0.15, "Amarelo": 0.45, "Verde": 0.30, "Azul": 0.05}
+    assert response.safety_rule_applied is False
+
+
+def test_the_safety_rule_is_reported_when_it_overrides_the_model_color(tmp_path):
+    clf = classifier(tmp_path, [1, 1, 1, 1, 1])
+
+    overridden = clf.classify(TriageRequest(**{**NORMAL, "oxygen_saturation": 85}))
+
+    assert overridden.predicted_color == "Vermelho"
+    assert overridden.safety_rule_applied is True
+    assert overridden.probabilities["Amarelo"] == 0.45
+
+
+def test_the_safety_rule_is_not_reported_when_the_model_already_says_red(tmp_path):
+    from shared.features import FEATURES
+
+    path = tmp_path / "red.pkl"
+    joblib.dump({"model": RedModel(), "features": FEATURES, "decision_weights": [1, 1, 1, 1, 1]}, path)
+
+    response = TriageClassifier(path).classify(TriageRequest(**{**NORMAL, "oxygen_saturation": 85}))
+
+    assert response.predicted_color == "Vermelho"
+    assert response.safety_rule_applied is False

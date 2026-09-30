@@ -80,7 +80,18 @@ Campos desconhecidos, como `sexo_masculino` e `idade`, são aceitos e ignorados:
 
 O campo `selecionavel` de `/sintomas` indica se o item pode ser oferecido ao usuário.
 
-Devolve `{"corPrevista": "Laranja", "confianca": 0.71}`. Campos desconhecidos são ignorados.
+Devolve, por exemplo:
+
+```json
+{
+  "corPrevista": "Verde",
+  "confianca": 0.55,
+  "probabilidades": {"Vermelho": 0.0005, "Laranja": 0.028, "Amarelo": 0.303, "Verde": 0.554, "Azul": 0.115},
+  "regraDeSeguranca": false
+}
+```
+
+`probabilidades` é a distribuição do modelo entre as 5 cores (soma 1), e `confianca` é a probabilidade da cor escolhida. `regraDeSeguranca` é `true` quando a regra de sinais vitais críticos forçou o Vermelho; nesse caso `confianca` e `probabilidades` continuam sendo as do modelo, que escolheu outra cor. Campos desconhecidos são ignorados.
 
 **`GET /sintomas`**: devolve `[{"codigo": "chest-pain", "termo": "chest pain", "rotulo": "Dor torácica"}, ...]`.
 
